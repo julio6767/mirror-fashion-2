@@ -1,4 +1,5 @@
 $ echo '{}' > composer.json
 $ git add composer.json
 $ git commit -m "add composer.json for PHP app detection"
-$ heroku config:set HEROKU_PHP_PLATFORM_REPOSITORIES="https://mybucket.s3.amazonaws.com/cedar-14/packages.json"
+
+$ heroku buildpacks:set heroku/php
