@@ -18,7 +18,7 @@
 <body>
 
     <?php
-        $conexao = mysqli_connect("localhost:3307","root","676767","wd43");
+        $conexao = mysqli_connect("sql3.freemysqlhosting.net","sql3368812","4yninEjVgf","sql3368812");
         $dados = mysqli_query($conexao,"SELECT * FROM produtos WHERE id = $_GET[id]");
         $produto = mysqli_fetch_array($dados);
     
