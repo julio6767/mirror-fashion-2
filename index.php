@@ -78,7 +78,7 @@
                       
                           <OL>
                             <?php
-                                $conexao = mysqli_connect ("localhost:sql3.freemysqlhosting.net","sql3368812","4yninEjVgf","wd43");
+                                $conexao = mysqli_connect ("localhost:sql3.freemysqlhosting.net","sql3368812","4yninEjVgf","sql3368812");
                                 $dados = mysqli_query ($conexao,"SELECT * FROM produtos ORDER BY data DESC LIMIT 0, 12");
 
                                 while ($produto = mysqli_fetch_array($dados)):
@@ -109,7 +109,7 @@
                    
                       <OL>
                             <?php
-                                $conexao = mysqli_connect ("localhost:sql3.freemysqlhosting.net","sql3368812","4yninEjVgf","wd43");
+                                $conexao = mysqli_connect ("localhost:sql3.freemysqlhosting.net","sql3368812","4yninEjVgf","sql3368812");
                                 $dados = mysqli_query ($conexao,"SELECT * FROM produtos ORDER BY vendas DESC LIMIT 0, 12");
 
                                 while ($produto = mysqli_fetch_array($dados)):
